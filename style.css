@@ -1,0 +1,192 @@
+body {
+    direction: rtl;
+    padding: 5px;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: rgba(81, 108, 99, 0.5);
+    border: 2px white dotted;
+    border-radius: 20px;
+
+
+
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pic {
+    height: 90%;
+    display: flex;
+
+}
+
+.list {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: #7acda4;
+
+}
+
+.hamMenu {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #7acda4;
+
+}
+
+.paeen {
+    display: flex;
+    margin-top: 15px;
+}
+
+.rightHandSide {
+    width: 50%;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    border: 2px white dotted;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.leftHandSide {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px white dotted;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-color: unset;
+
+}
+
+.picLeft {
+    width: 30%;
+    height: 65%;
+
+}
+
+.lowerLeft {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+
+.textLeft {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #7acda4;
+}
+
+.color {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.blue {
+    display: flex;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #03396c;
+}
+
+.red {
+    display: flex;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ae0001;
+
+}
+
+.green {
+    display: flex;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0D9335;
+
+}
+
+.form {
+    color: white;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column ;
+    justify-content: space-around;
+
+
+}
+
+.table {
+    border-radius: 10px;
+    border: white solid 2px;
+    background: rgba(81, 108, 99, 0.5);
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: white solid 2px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: white dotted 2px;
+
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.inputRight {
+    display: flex;
+    width: 50%;
+    padding: 9px;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+.lowRight{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url(./Shabnam.ttf);
+}
