@@ -1,9 +1,11 @@
 body {
     direction: rtl;
-    padding: 5px;
+    padding: 0;
     background-image: url(./background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    overflow: hidden;
 }
 
 .nav {
@@ -64,6 +66,7 @@ body {
     border: 2px white dotted;
     border-radius: 20px;
     margin-left: 5px;
+    transition: all 1s;
 }
 
 .leftHandSide {
@@ -75,8 +78,9 @@ body {
     border: 2px white dotted;
     border-radius: 20px;
     margin-right: 5px;
-    background-color: unset;
-
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: all 1s;
+    height: 85vh;
 }
 
 .picLeft {
@@ -135,7 +139,7 @@ body {
     height: auto;
     padding: 20px;
     display: flex;
-    flex-flow: column ;
+    flex-flow: column;
     justify-content: space-around;
 
 
@@ -179,7 +183,8 @@ td {
     border-radius: 5px;
     margin: 5px;
 }
-.lowRight{
+
+.lowRight {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -189,4 +194,19 @@ td {
 @font-face {
     font-family: shabnam;
     src: url(./Shabnam.ttf);
+}
+
+@media screen and (max-width:700px) {
+    .paeen {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftHandSide {
+        width: 100%;
+    }
+
+    .rightHandSide {
+        width: 100%;
+    }
 }
